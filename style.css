@@ -1,0 +1,37 @@
+p
+{
+font-family: "Century Gothic";
+font-size: smaller;
+}
+
+body
+{
+overflow: scroll;
+overflow-x hidden;
+}
+
+::-webkit-scrollbar{
+width: 0;
+}
+
+button
+{
+background-color: "beige";
+margin: 5px;
+padding: 20px;
+border-radius: 10px;
+border-outline: no-outline;
+color:rgb(black);
+font-family: "Century Gothic";
+font-size: large;
+width: 225px;
+cursor: pointer;
+}
+
+button:hover{
+background-image: linear-gradient(wheat, white,);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+transition: 0.5s all ease;
+}
+
